@@ -8,11 +8,11 @@ public class Motor {
 	    this.registro=registro;
 	}
 	void asignarTipo(String tipo) {
-	if(tipo=="electrico") {
-		this.tipo=tipo;
-	}
-	else if(tipo=="gasolina") {
-		this.tipo=tipo;
-	}
+		if(tipo=="electrico") {
+			this.tipo=tipo;
+		}
+		else if(tipo=="gasolina") {
+			this.tipo=tipo;
+		}
 	}
 }
